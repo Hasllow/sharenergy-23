@@ -1,0 +1,34 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = "mongodb+srv://hasllow:ybt9CokE5SCDek@cluster0.ogw2bmo.mongodb.net/share-energy?retryWrites=true&w=majority"
+}
+
+model Admin {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  username String @unique
+  password String
+}
+
+model User {
+  id      String  @id @default(auto()) @map("_id") @db.ObjectId
+  email   String  @unique
+  name    String
+  phone   String
+  cpf     String
+  address Address
+}
+
+// Address is an embedded document
+type Address {
+  street String
+  city   String
+  state  String
+  zip    String
+}

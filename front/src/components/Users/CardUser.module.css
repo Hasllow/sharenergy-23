@@ -1,0 +1,9 @@
+.cardUser p {
+  color: #000;
+}
+.cardUser h3,
+.cardUser p {
+  display: inline;
+  vertical-align: top;
+  line-height: 28px;
+}
