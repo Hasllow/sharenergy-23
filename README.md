@@ -6,7 +6,7 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:small_blue_diamond: [Como rodar a aplicação](#como-executar-a-aplicação-arrow_forward)
 
 ## Descrição do projeto
 
@@ -32,20 +32,20 @@ Para o banco de dados onde foi realizada a persistência dos dados de usuário e
 
 ## Front-End
 
-Na pasta raiz do projeto (desafio-sharenergy-2023-01) execute o seguinte comandos no terminal:
+Na pasta raiz do projeto execute o seguinte comandos no terminal:
 
 ```
-cd /front
+cd \front
 npm i
 npm start
 ```
 
 ## Back-End
 
-Na pasta raiz do projeto (desafio-sharenergy-2023-01) execute o seguinte comandos no terminal:
+Na pasta raiz do projeto execute o seguinte comandos no terminal:
 
 ```
-cd /back
+cd \back
 npm i
 npm start
 ```
