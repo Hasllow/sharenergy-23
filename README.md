@@ -30,22 +30,7 @@ Para o banco de dados onde foi realizada a persistência dos dados de usuário e
 
 # Como executar a aplicação :arrow_forward:
 
-Existem 2 formas de executar a aplicação, em ambiente de containers e ambiente local. Abaixo estão descritos os passos para a efetuação dos mesmos.
-
-## Ambiente de container
-
-No terminal na pasta raiz do projeto, digite os seguintes comandos:
-
-```
-docker compose up -d
-```
-
-- O front-end da aplicação estará online no [localhost](http://localhost)
-- O back-end da aplicação estará acessivel no [localhost:4000](http://localhost:4000)
-
-## Ambiente local
-
-### Front-End
+## Front-End
 
 Na pasta raiz do projeto (desafio-sharenergy-2023-01) execute o seguinte comandos no terminal:
 
@@ -55,9 +40,7 @@ npm i
 npm start
 ```
 
-## Como executar a aplicação :arrow_forward:
-
-### Back-End
+## Back-End
 
 Na pasta raiz do projeto (desafio-sharenergy-2023-01) execute o seguinte comandos no terminal:
 
