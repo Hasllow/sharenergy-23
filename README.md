@@ -35,7 +35,7 @@ Para o banco de dados onde foi realizada a persistência dos dados de usuário e
 Na pasta raiz do projeto execute o seguinte comandos no terminal:
 
 ```
-cd \front
+cd .\front
 npm i
 npm start
 ```
@@ -45,7 +45,7 @@ npm start
 Na pasta raiz do projeto execute o seguinte comandos no terminal:
 
 ```
-cd \back
+cd .\back
 npm i
 npm start
 ```
